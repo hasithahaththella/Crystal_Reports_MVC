@@ -7,7 +7,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <script src='<%=ResolveUrl("~/crystalreportviewers13/js/crviewer/crv.js")%>' type="text/javascript"></script>
+    <script src='<%=ResolveUrl("~/content/crystalreportviewers13/js/crviewer/crv.js")%>' type="text/javascript"></script>
 </head>
 <body>
     <form id="form1" runat="server">
