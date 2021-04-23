@@ -7,9 +7,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <script src='<%=ResolveUrl("~/content/crystalreportviewers13/js/crviewer/crv.js")%>' type="text/javascript"></script>
+    <script src='<%=ResolveUrl("~/content/crystalreportviewers14/js/crviewer/crv.js")%>' type="text/javascript"></script>
+   
 </head>
 <body>
+     <script>
+         function afterPageLoad() {
+             alert('hello');
+         }
+
+         window.onload = function afterPageLoad();
+
+     </script>
     <form id="form1" runat="server">
         <CR:CrystalReportViewer ID="CrystalReportViewer1" runat="server" AutoDataBind="true" Height="800" Width="1200" />
     </form>
