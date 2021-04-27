@@ -11,16 +11,8 @@
    
 </head>
 <body>
-     <script>
-         function afterPageLoad() {
-             alert('hello');
-         }
-
-         window.onload = function afterPageLoad();
-
-     </script>
     <form id="form1" runat="server">
-        <CR:CrystalReportViewer ID="CrystalReportViewer1" runat="server" AutoDataBind="true" Height="800" Width="1200" />
+        <CR:CrystalReportViewer ID="CrystalReportViewer1" runat="server" AutoDataBind="true" Height="800" Width="1200" CssClass="reportViewer"   HasCrystalLogo="False"  />
     </form>
 </body>
 </html>
